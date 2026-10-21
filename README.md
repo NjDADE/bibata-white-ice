@@ -2,38 +2,35 @@
 
 ![Bibata White-Ice banner](assets/bibata-white-ice-banner.png)
 
-A personal monochrome cursor theme for Linux, based on the Material Bibata cursor design.
+A cursor theme based on Material Bibata, featuring the white pointer with a black outline shown in the project banner.
 
-> **Status:** Work in progress. Compatibility with GNOME 51+ and the `cursors_scalable` format is a target and has not yet been verified.
+## Install
+
+On Linux, clone or download this repository, then run:
+
+```sh
+./install.sh
+```
+
+The installer copies the theme to `~/.local/share/icons/Bibata-Material-White-Ice`. Select **Bibata-Material-White-Ice** in your desktop's cursor settings. On GNOME, you can also set it with:
+
+```sh
+gsettings set org.gnome.desktop.interface cursor-theme 'Bibata-Material-White-Ice'
+```
+
+The theme includes compiled Xcursor files in `cursors/` and scalable SVG sources with hotspot metadata in `cursors_scalable/`. The primary pointer is white with a black outline; some action and status cursors retain their semantic accent colors from Material Bibata.
 
 ## Palette
 
-| Element | Color |
+| Part | Color |
 | --- | --- |
-| Body | `#ffffff` |
-| Primary | `#000000` |
-| Watch | `#ffffff` |
+| Primary pointer body | White (`#ffffff`) |
+| Primary pointer outline | Black (`#000000`) |
 
-## Goals
+## Credits
 
-- A clean white-and-black cursor appearance.
-- A standalone project with its own documentation and development history.
-- Support for modern Linux desktop environments, targeting GNOME 51+.
-- Support for the `cursors_scalable` cursor format.
+This project re-colors and packages cursor assets based on [Material Bibata Cursor](https://github.com/SakibShahariar/material-bibata-cursor), which in turn derives from [Bibata Cursor](https://github.com/ful1e5/Bibata_Cursor) and [Bibata Cursor's source](https://github.com/rtgiskard/bibata_cursor). Their authors and contributors retain credit for the original work.
 
-## Credits and upstream projects
+## License
 
-This project draws inspiration from and builds on work from these projects:
-
-- [Bibata Cursor](https://github.com/ful1e5/Bibata_Cursor)
-- [Material Bibata Cursor](https://github.com/SakibShahariar/material-bibata-cursor)
-
-Credit for original work remains with the respective authors and contributors.
-
-## Licensing
-
-No license is declared for this repository yet. Before redistributing cursor assets or derivative files, review the licenses and attribution requirements of both upstream projects and ensure each included component is appropriately licensed. A standalone repository name does not change the license terms of upstream assets.
-
-## Development
-
-Installation instructions, build steps, and release packages will be added after the cursor assets and compatibility have been checked.
+The cursor artwork is distributed under **GNU GPL version 3 or later**. See [LICENSE](LICENSE). The license note in Material Bibata Cursor describes the compiled theme artifacts as derivatives of Bibata Cursor. This repository contains both the scalable source artwork and the compiled Xcursor files.
