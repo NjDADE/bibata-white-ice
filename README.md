@@ -2,6 +2,10 @@
 
 ![Bibata White-Ice banner](assets/bibata-white-ice-banner.png)
 
+## Download
+
+Download the ready-to-install archive from the [latest GitHub release](https://github.com/NjDADE/bibata-white-ice/releases/latest). It includes the cursor theme and installer. You can also clone or download this repository directly.
+
 ## Cursor gallery
 
 All 88 cursor names are shown below, including aliases. The sheet previews the compiled cursors; the SVG sources are in the theme folder.
@@ -12,7 +16,7 @@ A cursor theme based on Material Bibata, featuring the white pointer with a blac
 
 ## Install
 
-On Linux, clone or download this repository, then run:
+On Linux, extract the release archive or clone this repository, open its folder in a terminal, then run:
 
 ```sh
 ./install.sh
@@ -24,7 +28,11 @@ The installer copies the theme to `~/.local/share/icons/Bibata-Material-White-Ic
 gsettings set org.gnome.desktop.interface cursor-theme 'Bibata-Material-White-Ice'
 ```
 
-The theme includes compiled Xcursor files in `cursors/` and scalable SVG sources with hotspot metadata in `cursors_scalable/`. The primary pointer is white with a black outline; some action and status cursors retain their semantic accent colors from Material Bibata.
+## Included formats
+
+The theme includes compiled Xcursor files in `cursors/` for desktop environments and applications using the Xcursor format, plus scalable SVG sources with hotspot metadata in `cursors_scalable/` for GNOME 51 and newer. The theme name is **Bibata-Material-White-Ice**.
+
+The primary pointer is white with a black outline; some action and status cursors retain their semantic accent colors from Material Bibata.
 
 ## Palette
 
