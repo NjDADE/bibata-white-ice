@@ -2,6 +2,12 @@
 
 ![Bibata White-Ice banner](assets/bibata-white-ice-banner.png)
 
+## Cursor gallery
+
+All 88 cursor names are shown below, including aliases. The sheet previews the compiled cursors; the SVG sources are in the theme folder.
+
+![Bibata White-Ice cursor gallery](assets/bibata-white-ice-cursor-sheet.png)
+
 A cursor theme based on Material Bibata, featuring the white pointer with a black outline shown in the project banner.
 
 ## Install
