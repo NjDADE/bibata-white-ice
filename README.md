@@ -30,15 +30,13 @@ gsettings set org.gnome.desktop.interface cursor-theme 'Bibata-Material-White-Ic
 
 ## Arch Linux
 
-The repository includes a `PKGBUILD` for building a package that installs the theme system-wide under `/usr/share/icons`:
+The repository includes a `PKGBUILD` for building and installing the package locally through pacman:
 
 ```sh
 git clone https://github.com/NjDADE/bibata-white-ice.git
 cd bibata-white-ice
 makepkg -si
 ```
-
-This installs the package through pacman. For convenient `pacman -Syu` updates through an AUR helper, the package must also be published to the AUR.
 
 ## Included formats
 
