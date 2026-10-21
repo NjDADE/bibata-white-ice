@@ -2,11 +2,7 @@
 
 ![Bibata White-Ice banner](assets/bibata-white-ice-banner.png)
 
-A monochrome cursor theme with a white body and black outline, built from the Material Bibata cursor set.
-
-## Preview
-
-The default pointer uses a white fill with a black edge. Other cursor shapes follow the same monochrome palette.
+A cursor theme based on Material Bibata, featuring the white pointer with a black outline shown in the project banner.
 
 ## Install
 
@@ -22,14 +18,14 @@ The installer copies the theme to `~/.local/share/icons/Bibata-Material-White-Ic
 gsettings set org.gnome.desktop.interface cursor-theme 'Bibata-Material-White-Ice'
 ```
 
-The theme includes compiled Xcursor files in `cursors/` and scalable SVG sources with hotspot metadata in `cursors_scalable/`.
+The theme includes compiled Xcursor files in `cursors/` and scalable SVG sources with hotspot metadata in `cursors_scalable/`. The primary pointer is white with a black outline; some action and status cursors retain their semantic accent colors from Material Bibata.
 
 ## Palette
 
 | Part | Color |
 | --- | --- |
-| Cursor body | White (`#ffffff`) |
-| Outline | Black (`#000000`) |
+| Primary pointer body | White (`#ffffff`) |
+| Primary pointer outline | Black (`#000000`) |
 
 ## Credits
 
