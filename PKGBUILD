@@ -13,7 +13,7 @@ package() {
   local release_dir="$srcdir/bibata-white-ice-v$pkgver"
 
   install -dm755 "$pkgdir/usr/share/icons"
-  cp -a "$release_dir/Bibata-Material-White-Ice" "$pkgdir/usr/share/icons/"
+  cp -R "$release_dir/Bibata-Material-White-Ice" "$pkgdir/usr/share/icons/"
 
   install -Dm644 "$release_dir/LICENSE" \
     "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
