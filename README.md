@@ -35,7 +35,7 @@ The theme includes compiled Xcursor files in `cursors/` and scalable SVG sources
 
 ## Credits
 
-This project re-colors and packages cursor assets based on [Material Bibata Cursor](https://github.com/SakibShahariar/material-bibata-cursor), which in turn derives from [Bibata Cursor](https://github.com/ful1e5/Bibata_Cursor) and [Bibata Cursor's source](https://github.com/rtgiskard/bibata_cursor). Their authors and contributors retain credit for the original work.
+The original Bibata cursor designs were created by [Abdulkaiz Khatri](https://github.com/ful1e5/Bibata_Cursor). This project builds on [Material Bibata Cursor](https://github.com/SakibShahariar/material-bibata-cursor) by Sakib Shahariar Shimanto and [Bibata Cursor](https://github.com/rtgiskard/bibata_cursor) by rtgiskard. Bibata White-Ice re-colors and packages those cursor assets; the original authors retain credit for their work.
 
 ## License
 
