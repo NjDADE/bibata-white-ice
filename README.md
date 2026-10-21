@@ -13,6 +13,10 @@ A white Material Bibata cursor theme with a black outline for Linux. Ships compi
 
 [Features](#features) · [Preview](#preview) · [Install](#install) · [Apply the theme](#apply-the-theme) · [Gallery](#cursor-gallery) · [Credits](#credits)
 
+<p align="center">
+  <img src="assets/bibata-white-ice-demo.gif" alt="Demo of the default, link, text and busy cursors" width="640">
+</p>
+
 ## Features
 
 - White pointer with a black outline, readable on both dark and light backgrounds
