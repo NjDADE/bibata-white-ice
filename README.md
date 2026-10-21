@@ -1,5 +1,7 @@
 # Bibata White-Ice
 
+![Bibata White-Ice banner](assets/bibata-white-ice-banner.png)
+
 A personal monochrome cursor theme for Linux, based on the Material Bibata cursor design.
 
 > **Status:** Work in progress. Compatibility with GNOME 51+ and the `cursors_scalable` format is a target and has not yet been verified.
