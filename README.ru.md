@@ -107,12 +107,7 @@ rm -rf ~/.local/share/icons/Bibata-Material-White-Ice
 
 Ниже показаны все 88 имён курсоров, включая алиасы. На листе превью скомпилированных курсоров, SVG-исходники лежат в папке темы.
 
-<details>
-<summary>Показать все 88 курсоров</summary>
-
 ![Галерея курсоров Bibata White-Ice](assets/bibata-white-ice-cursor-sheet.png)
-
-</details>
 
 ## Авторы и благодарности
 

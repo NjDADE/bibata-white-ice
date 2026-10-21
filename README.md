@@ -107,12 +107,7 @@ The theme name is **Bibata-Material-White-Ice**.
 
 All 88 cursor names are shown below, including aliases. The sheet previews the compiled cursors; the SVG sources are in the theme folder.
 
-<details>
-<summary>Show all 88 cursors</summary>
-
 ![Bibata White-Ice cursor gallery](assets/bibata-white-ice-cursor-sheet.png)
-
-</details>
 
 ## Credits
 
