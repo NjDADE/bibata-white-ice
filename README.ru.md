@@ -58,7 +58,13 @@ sudo cp -r Bibata-Material-White-Ice /usr/share/icons/
 
 ### Arch Linux
 
-В репозитории есть `PKGBUILD`: он скачивает архив релиза и устанавливает тему через pacman:
+Скачайте готовый пакет из [последнего релиза](https://github.com/NjDADE/bibata-white-ice/releases/latest) и установите через pacman:
+
+```bash
+sudo pacman -U ./bibata-white-ice-*-any.pkg.tar.zst
+```
+
+Или соберите пакет сами. В репозитории есть `PKGBUILD`, он скачивает архив релиза и собирает пакет:
 
 ```bash
 git clone https://github.com/NjDADE/bibata-white-ice.git
