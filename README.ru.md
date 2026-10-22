@@ -80,11 +80,13 @@ makepkg -si
 
 ### Flatpak-приложения
 
-Дайте Flatpak-приложениям доступ на чтение к пользовательскому каталогу иконок:
+Если курсор не меняется в Flatpak-приложении, дайте Flatpak-приложениям доступ на чтение к пользовательскому каталогу иконок и перезапустите приложение:
 
 ```bash
-flatpak override --user --filesystem=~/.local/share/icons/:ro
+flatpak override --user --filesystem=xdg-data/icons:ro
 ```
+
+`xdg-data/icons` это псевдоним Flatpak для `~/.local/share/icons`. Отменить: `flatpak override --user --reset`.
 
 ## Удаление
 

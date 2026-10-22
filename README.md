@@ -80,11 +80,13 @@ Select **Bibata-Material-White-Ice** in your desktop's cursor settings, or use a
 
 ### Flatpak apps
 
-Give Flatpak apps read access to the user icons directory:
+If the cursor does not change in a Flatpak app, give Flatpak apps read access to the user icons directory and restart the app:
 
 ```bash
-flatpak override --user --filesystem=~/.local/share/icons/:ro
+flatpak override --user --filesystem=xdg-data/icons:ro
 ```
+
+`xdg-data/icons` is Flatpak's alias for `~/.local/share/icons`. To undo it: `flatpak override --user --reset`.
 
 ## Uninstall
 

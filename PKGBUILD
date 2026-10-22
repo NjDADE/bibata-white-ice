@@ -1,13 +1,13 @@
 # Maintainer: NjDADE <103272883+NjDADE@users.noreply.github.com>
 pkgname=bibata-white-ice
-pkgver=1.0.0
+pkgver=1.0.1
 pkgrel=1
 pkgdesc='White cursor theme with a black outline (Xcursor and scalable SVG)'
 arch=('any')
 url='https://github.com/NjDADE/bibata-white-ice'
 license=('GPL-3.0-or-later')
 source=("$pkgname-v$pkgver.zip::https://github.com/NjDADE/bibata-white-ice/releases/download/v$pkgver/bibata-white-ice-v$pkgver.zip")
-sha256sums=('76ce9fd5ddad62372b4690f5fbc09d38b84faf01d569ca48c37b3c36499292c6')
+sha256sums=('915c8593832899004a57f71f653a371e46861c65c5e5e99008ce1210a7f467b8')
 
 package() {
   local release_dir="$srcdir/bibata-white-ice-v$pkgver"
