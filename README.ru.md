@@ -64,6 +64,8 @@ sudo cp -r Bibata-Material-White-Ice /usr/share/icons/
 sudo pacman -U ./bibata-white-ice-*-any.pkg.tar.zst
 ```
 
+Можно также открыть скачанный файл в графическом установщике пакетов (Pamac, Octopi), если он у вас установлен.
+
 Или соберите пакет сами. В репозитории есть `PKGBUILD`, он скачивает архив релиза и собирает пакет:
 
 ```bash

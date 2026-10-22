@@ -64,6 +64,8 @@ Download the prebuilt package from the [latest release](https://github.com/NjDAD
 sudo pacman -U ./bibata-white-ice-*-any.pkg.tar.zst
 ```
 
+You can also open the downloaded file in a graphical package installer (Pamac, Octopi) if you have one installed.
+
 Or build the package yourself. The repository includes a `PKGBUILD` that downloads the release archive and builds the package:
 
 ```bash
